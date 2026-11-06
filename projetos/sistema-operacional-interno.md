@@ -19,7 +19,23 @@ Ferramentas separadas dificultavam acompanhar a operação e exigiam alternar en
 
 As aplicações compartilham a navegação, mas podem ser publicadas separadamente. Isso permite evoluir uma área sem exigir a publicação de todo o sistema.
 
-## Fluxo resumido
+## Como as partes se conectam
+
+Diagrama conceitual da solução, sem detalhes da infraestrutura privada.
+
+```mermaid
+flowchart TD
+    pessoa["Pessoa da equipe"] --> login["Login compartilhado"]
+    login --> acesso["Permissões por pessoa e área"]
+    acesso --> atendimento["Atendimento e canais"]
+    acesso --> vendas["Vendas"]
+    acesso --> gestao["Gestão e automações"]
+    atendimento --> indicadores["Indicadores no painel central"]
+    vendas --> indicadores
+    gestao --> indicadores
+    acesso --> assistente["Assistente de IA"]
+    assistente --> consumo["Registro de uso e limites de custo"]
+```
 
 Login → permissões → aplicações de atendimento e gestão → indicadores compartilhados.
 

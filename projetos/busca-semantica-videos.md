@@ -19,7 +19,20 @@ Quem buscava uma resposta precisava localizar o vídeo e percorrer a gravação.
 
 A qualidade da recuperação foi investigada antes de alterar o texto de instrução da IA. O índice de busca precisava devolver os trechos adequados para que a resposta fosse útil.
 
-## Fluxo resumido
+## Como as partes se conectam
+
+Diagrama conceitual da solução, sem detalhes da infraestrutura privada.
+
+```mermaid
+flowchart TD
+    video["Vídeos do canal"] --> texto["Transcrições"]
+    texto --> trechos["Trechos com marcação de tempo"]
+    trechos --> indice["Índice de busca"]
+    pergunta["Pergunta em linguagem natural"] --> busca["Busca por assunto"]
+    indice --> busca
+    busca --> resultados["Vídeos e minutos relevantes"]
+    resultados --> plano["Plano de ação com IA"]
+```
 
 Vídeo → transcrição → trechos indexados → pergunta → resultado com marcação de tempo.
 
