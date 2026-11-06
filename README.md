@@ -18,20 +18,20 @@ Não entrego um projeto e sumo. Depois que entra no ar, eu acompanho, ajusto e e
 
 ## Projetos em destaque
 
-**[rebot-pirethai](https://github.com/brunorosapireth/rebot-pirethai)**: app nativo para macOS que grava e reproduz mouse e teclado para automatizar tarefas repetitivas. Código público em Swift e SwiftUI.
+Construo agentes de IA, sistemas internos e automações que trabalham juntos na operação da empresa. Estes estudos mostram as entregas e as decisões técnicas; o código e os dados dos clientes permanecem privados.
 
-**Aplicações por segmento**
-
-| Segmento | O que foi feito |
+| Projeto | O que construí |
 | --- | --- |
-| Clínica | Atendente de IA no WhatsApp que agenda, confirma e convida para retorno. |
-| Academia de tênis | Agente que entende áudio e troca ou marca aulas sozinho. |
-| Criador de conteúdo | Máquina de conteúdo com calendário, aprovação no celular e publicação. |
-| Time de vendas | Painel de vendas com funil e metas do mês. |
-| Educação | Busca dentro dos vídeos que leva ao minuto exato da resposta. |
-| Site com blog | Migração para um site rápido que o Google e as IAs conseguem ler. |
+| [Atendimento com IA para clínicas](projetos/recepcao-ia-whatsapp.md) | WhatsApp integrado à agenda, com regras de atendimento e encaminhamento para a equipe. |
+| [Agenda e prontuário integrados ao atendimento](projetos/agenda-prontuario.md) | Sistema sob medida com agenda, permissões por função e integração com agentes de IA. |
+| [Sistema interno para atendimento, vendas e gestão](projetos/sistema-operacional-interno.md) | Aplicações conectadas por login, permissões e navegação compartilhados. |
+| [Conteúdo e newsletters com IA e revisão humana](projetos/maquina-de-conteudo.md) | Da pauta à publicação, com revisão de voz, aprovação e integração aos canais. |
+| [Busca por assunto dentro de vídeos](projetos/busca-semantica-videos.md) | Pesquisa em linguagem natural que encontra o vídeo e o trecho relevante. |
+| [Gestão de aulas e atendente por áudio](projetos/agente-whatsapp-academia.md) | Sistema de aulas e quadras conectado a um agente que entende mensagens e áudio. |
 
-<p align="center"><a href="https://brunopireth.com.br/#cases"><b>Ver as telas dos projetos no site →</b></a></p>
+**[Ver todos os projetos e estudos técnicos](projetos/README.md)** · [Ver as telas no portfólio](https://brunopireth.com.br/#cases)
+
+Também desenvolvi o [rebot-pirethai](https://github.com/brunorosapireth/rebot-pirethai), um app de automação de mouse e teclado para macOS, com código público.
 
 ## O que eu faço
 
@@ -63,9 +63,30 @@ Não entrego um projeto e sumo. Depois que entra no ar, eu acompanho, ajusto e e
   <img src="https://skillicons.dev/icons?i=docker,linux,cloudflare,vercel,github,threejs,wordpress,notion&perline=8" alt="Docker, Linux, Cloudflare, Vercel, GitHub, Three.js, WordPress e Notion">
 </p>
 
-- **IA:** Claude, Claude Code, ChatGPT, Codex, Whisper, Gemini e Perplexity.
-- **Canais:** WhatsApp, Instagram, Meta, YouTube, LinkedIn, ActiveCampaign e Resend.
-- **Automação e gestão:** n8n, Google Planilhas, Pipedrive e Hotmart.
+As ferramentas que uso para construir, integrar e acompanhar as soluções.
+
+| Área | Ferramentas |
+| --- | --- |
+| **Inteligência artificial** | Claude, Claude Code, ChatGPT, Codex, Whisper, Gemini, Perplexity e Grok |
+| **Canais e comunicação** | WhatsApp, Instagram, Meta, YouTube, LinkedIn, ActiveCampaign e Resend |
+| **Automação e infraestrutura** | n8n, Docker, GitHub, Cloudflare, VPS Linux e Vercel |
+| **Dados e sistemas** | Supabase, PostgreSQL, Redis, Python e Node.js |
+| **Sites e interfaces** | Next.js, React, TypeScript, Three.js e WordPress |
+| **Gestão e vendas** | Notion, Google Planilhas, Pipedrive e Hotmart |
+
+<details>
+<summary><strong>Mais detalhes da stack técnica</strong></summary>
+
+- **IA e busca:** Claude API, MCP, embeddings, pgvector, cache de prompts, processamento em lote e uso de ferramentas pelos agentes.
+- **Desenvolvimento e testes:** Tailwind, Vite, Turborepo, SwiftUI, Vitest e Playwright.
+- **Dados e backend:** Prisma, RLS, Edge Functions (Deno) e pg_cron.
+- **Integrações:** WhatsApp Cloud API, Instagram Graph API, YouTube Data API, Meta Marketing API, Google APIs, Notion API, Evolution API, OpenWA e Fireflies.
+- **Operação:** GitHub Actions, Caddy, DNS e configuração de e-mail.
+
+</details>
+
+**Experiência anterior:** Make, Sellflux, ManyChat, Typebot, Clint, Hotwebinar e Pretty Links.
+
 
 ---
 
