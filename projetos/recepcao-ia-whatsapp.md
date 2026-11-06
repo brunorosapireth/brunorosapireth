@@ -19,7 +19,22 @@ A equipe recebia dúvidas, pedidos de agendamento, remarcações e comprovantes 
 
 A IA prepara a resposta, mas uma camada de regras em código confere informações antes do envio. Valores vêm da tabela cadastrada; pedidos de orientação clínica seguem para a equipe.
 
-## Fluxo resumido
+## Como as partes se conectam
+
+Diagrama conceitual da solução, sem detalhes da infraestrutura privada.
+
+```mermaid
+flowchart TD
+    canal["Mensagem no WhatsApp"] --> entrada["Organização da conversa"]
+    entrada --> humano{"Equipe assumiu?"}
+    humano -->|Sim| equipe["Atendimento pela equipe"]
+    humano -->|Não| agente["Agente de IA"]
+    agente <-->|Consulta e operações autorizadas| agenda["Agenda"]
+    agente --> regras["Validação em código"]
+    regras -->|Dentro das regras| resposta["Resposta no WhatsApp"]
+    regras -->|Precisa de uma pessoa| resumo["Resumo para a equipe"]
+    resumo --> equipe
+```
 
 Mensagem → organização da conversa → agente → validação em código → resposta ou equipe.
 
