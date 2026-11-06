@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://brunopireth.com.br"><img src="assets/banner.png" alt="Bruno Pireth: IA que atende, vende e cria soluções para a sua empresa" width="100%"></a>
+<a href="https://brunopireth.com.br"><img src="assets/banner-ilustrado.png" alt="Bruno Pireth: IA que atende, vende e cria soluções para a sua empresa" width="100%"></a>
 
 <br>
 
