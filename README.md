@@ -63,9 +63,30 @@ Também desenvolvi o [rebot-pirethai](https://github.com/brunorosapireth/rebot-p
   <img src="https://skillicons.dev/icons?i=docker,linux,cloudflare,vercel,github,threejs,wordpress,notion&perline=8" alt="Docker, Linux, Cloudflare, Vercel, GitHub, Three.js, WordPress e Notion">
 </p>
 
-- **IA:** Claude, Claude Code, ChatGPT, Codex, Whisper, Gemini e Perplexity.
-- **Canais:** WhatsApp, Instagram, Meta, YouTube, LinkedIn, ActiveCampaign e Resend.
-- **Automação e gestão:** n8n, Google Planilhas, Pipedrive e Hotmart.
+As ferramentas que uso para construir, integrar e acompanhar as soluções.
+
+| Área | Ferramentas |
+| --- | --- |
+| **Inteligência artificial** | Claude, Claude Code, ChatGPT, Codex, Whisper, Gemini, Perplexity e Grok |
+| **Canais e comunicação** | WhatsApp, Instagram, Meta, YouTube, LinkedIn, ActiveCampaign e Resend |
+| **Automação e infraestrutura** | n8n, Docker, GitHub, Cloudflare, VPS Linux e Vercel |
+| **Dados e sistemas** | Supabase, PostgreSQL, Redis, Python e Node.js |
+| **Sites e interfaces** | Next.js, React, TypeScript, Three.js e WordPress |
+| **Gestão e vendas** | Notion, Google Planilhas, Pipedrive e Hotmart |
+
+<details>
+<summary><strong>Mais detalhes da stack técnica</strong></summary>
+
+- **IA e busca:** Claude API, MCP, embeddings, pgvector, cache de prompts, processamento em lote e uso de ferramentas pelos agentes.
+- **Desenvolvimento e testes:** Tailwind, Vite, Turborepo, SwiftUI, Vitest e Playwright.
+- **Dados e backend:** Prisma, RLS, Edge Functions (Deno) e pg_cron.
+- **Integrações:** WhatsApp Cloud API, Instagram Graph API, YouTube Data API, Meta Marketing API, Google APIs, Notion API, Evolution API, OpenWA e Fireflies.
+- **Operação:** GitHub Actions, Caddy, DNS e configuração de e-mail.
+
+</details>
+
+**Experiência anterior:** Make, Sellflux, ManyChat, Typebot, Clint, Hotwebinar e Pretty Links.
+
 
 ---
 
